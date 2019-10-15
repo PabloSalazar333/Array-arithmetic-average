@@ -2,7 +2,7 @@ package com.homework1.app;
 
 import java.util.Random;
 
-public class Array_arithmetic_average {
+public class ArrayArithmeticAverage {
 	
 	public static void main(String[] args) {
 		// Constant declaration

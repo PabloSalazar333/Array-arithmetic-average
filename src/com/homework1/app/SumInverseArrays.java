@@ -29,11 +29,10 @@ public class SumInverseArrays {
 			{
 				vector2[j] = (byte) randomNumbers.nextInt(101);
 				System.out.println(vector2[j]);
-				System.out.println(" ");
-				
+				//System.out.println(" ");			
 
 				sum = vector1[i]+vector2[j];
-				System.out.print(sum);
+				System.out.println(sum);
 			}
 
 		}
