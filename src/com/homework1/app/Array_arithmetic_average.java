@@ -13,23 +13,21 @@ public class Array_arithmetic_average {
 		double sum = 0;
 		double arithmeticAverage = 0.0;
 		
-		//Objective declaration
+	
+		//Pass 1 Initialize
 		Random randomNumbers = new Random(System.nanoTime());
-				
+		
+		//Pass 2 Process
 		for(int i=0; i<ELEMENTS_ARRAY; i++)
 		{
 			vector[i] = (byte) (randomNumbers.nextInt(50)+51);
 			sum += vector[i];
 			System.out.println(vector[i]);
 		}
-		/*for(int i=0;i<ELEMENTS_ARRAY;i++)
-		{
-			System.out.println(vector[i]);
-		}*/
-			System.out.println(sum);
-			
-			arithmeticAverage = (double)(sum/ELEMENTS_ARRAY);
-			
+		
+		//Pass 3 Visualization
+		System.out.println(sum);
+		arithmeticAverage = (double)(sum/ELEMENTS_ARRAY);
 		System.out.println("The aritmetic averga is: "+arithmeticAverage);
 
 	}
