@@ -29,7 +29,7 @@ public class ArrayArithmeticAverage {
 		//Pass 3 Visualization
 		System.out.println(sum);
 		arithmeticAverage = (double)(sum/ELEMENTS_ARRAY);
-		System.out.println("The aritmetic averga is: "+arithmeticAverage);
+		System.out.println("The aritmetic average is: "+arithmeticAverage);
 
 	}
 
