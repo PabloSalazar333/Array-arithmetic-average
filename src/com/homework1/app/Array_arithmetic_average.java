@@ -4,16 +4,17 @@ import java.util.Random;
 
 public class Array_arithmetic_average {
 	
-	public static void main(String[]args) {
+	public static void main(String[] args) {
 		// Constant declaration
 		final int ELEMENTS_ARRAY = 100;
 		
 		//Array declaration
 		byte[] vector = new byte[ELEMENTS_ARRAY];
+		
+		//Variable declaration
 		double sum = 0;
 		double arithmeticAverage = 0.0;
 		
-	
 		//Pass 1 Initialize
 		Random randomNumbers = new Random(System.nanoTime());
 		
